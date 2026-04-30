@@ -1,0 +1,142 @@
+fileFormatVersion: 2
+guid: d26961e3733ab944f8be578133ada2aa
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Spinner
+    100004: Spinner Stand
+    400000: //RootNode
+    400002: Spinner
+    400004: Spinner Stand
+    2100000: Bingo Ball Spinner 6
+    2100002: Bingo Ball Spinner 7
+    2100004: Bingo Ball Spinner 5
+    2100006: Bingo Ball Spinner 4
+    2100008: Bingo Ball Spinner 1
+    2100010: Bingo Ball Spinner 2
+    2300000: Spinner
+    2300002: Spinner Stand
+    3300000: Spinner
+    3300002: Spinner Stand
+    4300000: Spinner
+    4300002: Spinner Stand
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bingo Ball Spinner 1
+    second: {fileID: 2100000, guid: 12944b184f9a4424c8c7c6114dbdaa74, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bingo Ball Spinner 2
+    second: {fileID: 2100000, guid: 742a9d4b5d79d0846a181c8179ca913b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bingo Ball Spinner 4
+    second: {fileID: 2100000, guid: 71d3029466c342645a3c83745ea9445f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bingo Ball Spinner 5
+    second: {fileID: 2100000, guid: 06129f82831958343a29caeb461f8134, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bingo Ball Spinner 6
+    second: {fileID: 2100000, guid: f884a7ad727d33540a0f404dd464c2df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bingo Ball Spinner 7
+    second: {fileID: 2100000, guid: 9b33b7164eb4bf84186778d314a8f582, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 166968
+  packageName: 9t5 Low Poly Casino
+  packageVersion: 1.0
+  assetPath: Assets/9t5 Low Poly Casino/FBXs/Bingo Ball Spinner.fbx
+  uploadId: 363396
