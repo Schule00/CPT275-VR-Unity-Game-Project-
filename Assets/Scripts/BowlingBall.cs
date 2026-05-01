@@ -3,41 +3,42 @@ using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 using UnityEngine.XR.Interaction.Toolkit.Interactables;
 
-/// <summary>
-/// Attach to the Sphere (bowling ball).
-/// Requires: Rigidbody, SphereCollider, XRGrabInteractable.
-/// Tag the Sphere as "BowlingBall" in Edit > Project Settings > Tags.
-/// </summary>
 [RequireComponent(typeof(Rigidbody))]
 [RequireComponent(typeof(XRGrabInteractable))]
 public class BowlingBall : MonoBehaviour
 {
     [Header("Respawn Settings")]
-    [Tooltip("Seconds after the ball is thrown before it respawns.")]
     public float respawnDelay = 7f;
+    public float throwSpeedThreshold = 1.2f;
 
-    [Tooltip("Minimum speed (m/s) after release to count as a real throw.")]
-    public float throwSpeedThreshold = 0.5f;
+    [Header("Respawn Position (set this manually in Inspector!)")]
+    [Tooltip("Drag the ball to where you want it to spawn, then click 'Save Current Position' by right-clicking this script, OR just manually fill in these values.")]
+    public Vector3 spawnPosition;
+    public Vector3 spawnRotationEuler;
 
-    // ── Private state ────────────────────────────────────────────────────────
     private Rigidbody _rb;
     private XRGrabInteractable _grab;
-
-    private Vector3 _startPosition;
-    private Quaternion _startRotation;
 
     private bool _isHeld = false;
     private bool _wasThrown = false;
     private bool _respawnQueued = false;
-    private bool _throwStarted = false;   // did we already fire StartNewThrow this release?
+    private bool _throwStarted = false;
 
-    // ── Unity lifecycle ──────────────────────────────────────────────────────
     private void Awake()
     {
         _rb = GetComponent<Rigidbody>();
         _grab = GetComponent<XRGrabInteractable>();
-        _startPosition = transform.position;
-        _startRotation = transform.rotation;
+    }
+
+    private void Start()
+    {
+        // If no manual spawn position set, fall back to current position at Start
+        // (Start runs after Awake so the scene is more settled)
+        if (spawnPosition == Vector3.zero)
+        {
+            spawnPosition = transform.position;
+            spawnRotationEuler = transform.eulerAngles;
+        }
     }
 
     private void OnEnable()
@@ -57,13 +58,10 @@ public class BowlingBall : MonoBehaviour
         if (_isHeld || !_wasThrown || _respawnQueued)
             return;
 
-        // Wait until the ball is actually moving before registering the throw.
-        // This avoids counting a "throw" if the player just drops the ball.
         if (!_throwStarted && _rb.linearVelocity.magnitude >= throwSpeedThreshold)
         {
             _throwStarted = true;
 
-            // A real throw — tell the scoreboard now so pins are unlocked.
             if (BowlingScoreboard.Instance != null)
                 BowlingScoreboard.Instance.StartNewThrow();
 
@@ -72,28 +70,22 @@ public class BowlingBall : MonoBehaviour
         }
     }
 
-    // ── XR callbacks ─────────────────────────────────────────────────────────
     private void OnGrabbed(SelectEnterEventArgs args)
     {
         _isHeld = true;
         _wasThrown = false;
         _throwStarted = false;
-
-        // Cancel any pending auto-respawn.
         StopAllCoroutines();
         _respawnQueued = false;
-
-        // No scoreboard call here — throw is registered on release+movement.
     }
 
     private void OnReleased(SelectExitEventArgs args)
     {
         _isHeld = false;
         _wasThrown = true;
-        _throwStarted = false;   // arm the speed check in Update
+        _throwStarted = false;
     }
 
-    // ── Respawn logic ────────────────────────────────────────────────────────
     private IEnumerator RespawnAfterDelay()
     {
         yield return new WaitForSeconds(respawnDelay);
@@ -102,19 +94,41 @@ public class BowlingBall : MonoBehaviour
 
     private void Respawn()
     {
+        // Stop all movement
+        _rb.isKinematic = true;
         _rb.linearVelocity = Vector3.zero;
         _rb.angularVelocity = Vector3.zero;
-        _rb.isKinematic = true;
 
-        transform.position = _startPosition;
-        transform.rotation = _startRotation;
+        // Move to saved spawn
+        transform.position = spawnPosition;
+        transform.rotation = Quaternion.Euler(spawnRotationEuler);
 
+        // Small delay before re-enabling physics so it doesn't
+        // immediately get flung by residual forces or gravity spike
+        StartCoroutine(ReEnablePhysics());
+    }
+
+    private IEnumerator ReEnablePhysics()
+    {
+        yield return new WaitForFixedUpdate();
+        yield return new WaitForFixedUpdate();
         _rb.isKinematic = false;
 
         _wasThrown = false;
         _respawnQueued = false;
         _throwStarted = false;
+    }
 
-        // No scoreboard call here — next throw registers when ball is released again.
+    // ── Editor helper ─────────────────────────────────────────────────────────
+    /// <summary>
+    /// Call this from the Inspector context menu to lock in the current
+    /// position as the spawn point without needing to type coordinates.
+    /// </summary>
+    [ContextMenu("Save Current Position as Spawn")]
+    private void SaveCurrentPositionAsSpawn()
+    {
+        spawnPosition = transform.position;
+        spawnRotationEuler = transform.eulerAngles;
+        Debug.Log($"Spawn position saved: {spawnPosition}");
     }
 }

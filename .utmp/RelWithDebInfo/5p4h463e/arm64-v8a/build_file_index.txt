@@ -1,0 +1,2 @@
+C:\Users\fluxy\Desktop\Unity Projects\VR Practice\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\CMakeLists.txt
+C:\Users\fluxy\Desktop\Unity Projects\VR Practice\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\CMakeLists.txt
