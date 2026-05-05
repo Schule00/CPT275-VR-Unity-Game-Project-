@@ -1,0 +1,380 @@
+fileFormatVersion: 2
+guid: 5d3eab2a6cb1523489c4dbe26003f7e9
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Club 10
+    100002: Club 2
+    100004: Club 3
+    100006: Club 4
+    100008: Club 5
+    100010: Club 6
+    100012: Club 7
+    100014: Club 8
+    100016: Club 9
+    100018: Club Ace
+    100020: Club Jack
+    100022: Club King
+    100024: Club Queen
+    100026: Diamond 10
+    100028: Diamond 2
+    100030: Diamond 3
+    100032: Diamond 4
+    100034: Diamond 5
+    100036: Diamond 6
+    100038: Diamond 7
+    100040: Diamond 8
+    100042: Diamond 9
+    100044: Diamond Ace
+    100046: Diamond Jack
+    100048: Diamond King
+    100050: Diamond Queen
+    100052: Hearts 10
+    100054: Hearts 2
+    100056: Hearts 3
+    100058: Hearts 4
+    100060: Hearts 5
+    100062: Hearts 6
+    100064: Hearts 7
+    100066: Hearts 8
+    100068: Hearts 9
+    100070: Hearts Ace
+    100072: Hearts Jack
+    100074: Hearts King
+    100076: Hearts Queen
+    100078: //RootNode
+    100080: Spade 10
+    100082: Spade 2
+    100084: Spade 3
+    100086: Spade 4
+    100088: Spade 5
+    100090: Spade 6
+    100092: Spade 7
+    100094: Spade 8
+    100096: Spade 9
+    100098: Spade Ace
+    100100: Spade Jack
+    100102: Spade King
+    100104: Spade Queen
+    400000: Club 10
+    400002: Club 2
+    400004: Club 3
+    400006: Club 4
+    400008: Club 5
+    400010: Club 6
+    400012: Club 7
+    400014: Club 8
+    400016: Club 9
+    400018: Club Ace
+    400020: Club Jack
+    400022: Club King
+    400024: Club Queen
+    400026: Diamond 10
+    400028: Diamond 2
+    400030: Diamond 3
+    400032: Diamond 4
+    400034: Diamond 5
+    400036: Diamond 6
+    400038: Diamond 7
+    400040: Diamond 8
+    400042: Diamond 9
+    400044: Diamond Ace
+    400046: Diamond Jack
+    400048: Diamond King
+    400050: Diamond Queen
+    400052: Hearts 10
+    400054: Hearts 2
+    400056: Hearts 3
+    400058: Hearts 4
+    400060: Hearts 5
+    400062: Hearts 6
+    400064: Hearts 7
+    400066: Hearts 8
+    400068: Hearts 9
+    400070: Hearts Ace
+    400072: Hearts Jack
+    400074: Hearts King
+    400076: Hearts Queen
+    400078: //RootNode
+    400080: Spade 10
+    400082: Spade 2
+    400084: Spade 3
+    400086: Spade 4
+    400088: Spade 5
+    400090: Spade 6
+    400092: Spade 7
+    400094: Spade 8
+    400096: Spade 9
+    400098: Spade Ace
+    400100: Spade Jack
+    400102: Spade King
+    400104: Spade Queen
+    2100000: Playing Cards 1
+    2100002: Playing Cards 2
+    2100004: Playing Cards 3
+    2100006: Playing Cards 4
+    2300000: Club 10
+    2300002: Club 2
+    2300004: Club 3
+    2300006: Club 4
+    2300008: Club 5
+    2300010: Club 6
+    2300012: Club 7
+    2300014: Club 8
+    2300016: Club 9
+    2300018: Club Ace
+    2300020: Club Jack
+    2300022: Club King
+    2300024: Club Queen
+    2300026: Diamond 10
+    2300028: Diamond 2
+    2300030: Diamond 3
+    2300032: Diamond 4
+    2300034: Diamond 5
+    2300036: Diamond 6
+    2300038: Diamond 7
+    2300040: Diamond 8
+    2300042: Diamond 9
+    2300044: Diamond Ace
+    2300046: Diamond Jack
+    2300048: Diamond King
+    2300050: Diamond Queen
+    2300052: Hearts 10
+    2300054: Hearts 2
+    2300056: Hearts 3
+    2300058: Hearts 4
+    2300060: Hearts 5
+    2300062: Hearts 6
+    2300064: Hearts 7
+    2300066: Hearts 8
+    2300068: Hearts 9
+    2300070: Hearts Ace
+    2300072: Hearts Jack
+    2300074: Hearts King
+    2300076: Hearts Queen
+    2300078: Spade 10
+    2300080: Spade 2
+    2300082: Spade 3
+    2300084: Spade 4
+    2300086: Spade 5
+    2300088: Spade 6
+    2300090: Spade 7
+    2300092: Spade 8
+    2300094: Spade 9
+    2300096: Spade Ace
+    2300098: Spade Jack
+    2300100: Spade King
+    2300102: Spade Queen
+    3300000: Club 10
+    3300002: Club 2
+    3300004: Club 3
+    3300006: Club 4
+    3300008: Club 5
+    3300010: Club 6
+    3300012: Club 7
+    3300014: Club 8
+    3300016: Club 9
+    3300018: Club Ace
+    3300020: Club Jack
+    3300022: Club King
+    3300024: Club Queen
+    3300026: Diamond 10
+    3300028: Diamond 2
+    3300030: Diamond 3
+    3300032: Diamond 4
+    3300034: Diamond 5
+    3300036: Diamond 6
+    3300038: Diamond 7
+    3300040: Diamond 8
+    3300042: Diamond 9
+    3300044: Diamond Ace
+    3300046: Diamond Jack
+    3300048: Diamond King
+    3300050: Diamond Queen
+    3300052: Hearts 10
+    3300054: Hearts 2
+    3300056: Hearts 3
+    3300058: Hearts 4
+    3300060: Hearts 5
+    3300062: Hearts 6
+    3300064: Hearts 7
+    3300066: Hearts 8
+    3300068: Hearts 9
+    3300070: Hearts Ace
+    3300072: Hearts Jack
+    3300074: Hearts King
+    3300076: Hearts Queen
+    3300078: Spade 10
+    3300080: Spade 2
+    3300082: Spade 3
+    3300084: Spade 4
+    3300086: Spade 5
+    3300088: Spade 6
+    3300090: Spade 7
+    3300092: Spade 8
+    3300094: Spade 9
+    3300096: Spade Ace
+    3300098: Spade Jack
+    3300100: Spade King
+    3300102: Spade Queen
+    4300000: Spade King
+    4300002: Club King
+    4300004: Hearts King
+    4300006: Diamond King
+    4300008: Diamond Queen
+    4300010: Hearts Queen
+    4300012: Club Queen
+    4300014: Spade Queen
+    4300016: Spade Jack
+    4300018: Club Jack
+    4300020: Hearts Jack
+    4300022: Diamond Jack
+    4300024: Diamond 10
+    4300026: Hearts 10
+    4300028: Club 10
+    4300030: Spade 10
+    4300032: Spade 9
+    4300034: Club 9
+    4300036: Hearts 9
+    4300038: Diamond 9
+    4300040: Diamond 8
+    4300042: Hearts 8
+    4300044: Club 8
+    4300046: Spade 8
+    4300048: Spade 7
+    4300050: Club 7
+    4300052: Hearts 7
+    4300054: Diamond 7
+    4300056: Diamond 6
+    4300058: Hearts 6
+    4300060: Club 6
+    4300062: Spade 6
+    4300064: Spade 5
+    4300066: Club 5
+    4300068: Hearts 5
+    4300070: Diamond 5
+    4300072: Diamond 4
+    4300074: Hearts 4
+    4300076: Club 4
+    4300078: Spade 4
+    4300080: Spade 3
+    4300082: Club 3
+    4300084: Hearts 3
+    4300086: Diamond 3
+    4300088: Diamond 2
+    4300090: Hearts 2
+    4300092: Club 2
+    4300094: Spade 2
+    4300096: Spade Ace
+    4300098: Club Ace
+    4300100: Hearts Ace
+    4300102: Diamond Ace
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Playing Cards 1
+    second: {fileID: 2100000, guid: d5be3b27ea1b81b4f8ab506a26d528df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Playing Cards 2
+    second: {fileID: 2100000, guid: 7759c503a186f514ca3c033e12cf94ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Playing Cards 3
+    second: {fileID: 2100000, guid: b140faa49e3696340ac8fe73ffa5efe8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Playing Cards 4
+    second: {fileID: 2100000, guid: ca76e86796276e4478f1a73ccb1ca3f0, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 166968
+  packageName: 9t5 Low Poly Casino
+  packageVersion: 1.0
+  assetPath: Assets/9t5 Low Poly Casino/FBXs/Playing Cards.fbx
+  uploadId: 363396
