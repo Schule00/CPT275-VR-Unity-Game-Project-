@@ -13,6 +13,9 @@ public class BowlingScoreboard : MonoBehaviour
     public int totalPins = 5;
     public float celebrationDuration = 2f;
 
+    [Header("Scoreboard")]
+    public int BowlingScore;
+
     private int _pinsDownThisThrow = 0;
     private int _totalPinsDown = 0;
     private int _throwCount = 0;
@@ -44,6 +47,7 @@ public class BowlingScoreboard : MonoBehaviour
     {
         _pinsDownThisThrow++;
         _totalPinsDown++;
+        BowlingScore = _totalPinsDown * 10;
         if (_celebrationCoroutine != null) StopCoroutine(_celebrationCoroutine);
         _celebrationCoroutine = StartCoroutine(ShowCelebration());
     }
