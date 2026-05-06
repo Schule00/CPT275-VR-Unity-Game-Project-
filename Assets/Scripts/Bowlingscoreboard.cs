@@ -15,6 +15,7 @@ public class BowlingScoreboard : MonoBehaviour
 
     [Header("Scoreboard")]
     public int BowlingScore;
+    public bool gameFinished;
 
     private int _pinsDownThisThrow = 0;
     private int _totalPinsDown = 0;
@@ -37,6 +38,7 @@ public class BowlingScoreboard : MonoBehaviour
     {
         _throwCount++;
         _pinsDownThisThrow = 0;
+        gameFinished = false;
         foreach (var pin in _allPins)
             if (pin != null) pin.PrepareForNewThrow();
         if (_celebrationCoroutine != null) StopCoroutine(_celebrationCoroutine);
@@ -48,6 +50,7 @@ public class BowlingScoreboard : MonoBehaviour
         _pinsDownThisThrow++;
         _totalPinsDown++;
         BowlingScore = _totalPinsDown * 10;
+        gameFinished = true;
         if (_celebrationCoroutine != null) StopCoroutine(_celebrationCoroutine);
         _celebrationCoroutine = StartCoroutine(ShowCelebration());
     }
@@ -58,6 +61,7 @@ public class BowlingScoreboard : MonoBehaviour
         _totalPinsDown = 0;
         _throwCount = 0;
         _strikeCount = 0;
+        gameFinished = false;
         foreach (var pin in _allPins)
             if (pin != null) pin.ForceReset();
         if (_celebrationCoroutine != null) StopCoroutine(_celebrationCoroutine);

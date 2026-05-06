@@ -12,7 +12,12 @@ public class Scoreboard : MonoBehaviour
 
     void Update()
     {
-        scoreTotal += _bowlingScoreboard.BowlingScore;
+        if (_bowlingScoreboard.gameFinished)
+        {
+            scoreTotal += _bowlingScoreboard.BowlingScore;
+            _bowlingScoreboard.gameFinished = false;
+        }
+        
         scoreText.text = scoreTotal.ToString() + " PTs";
     }
 }
