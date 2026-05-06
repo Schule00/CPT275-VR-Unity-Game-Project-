@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: ae2c9da2a6624d2449dfc2bf27d85d5a
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 100100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 166968
-  packageName: 9t5 Low Poly Casino
-  packageVersion: 1.0
-  assetPath: Assets/9t5 Low Poly Casino/Prefabs/Individual Cards/Diamond 3.prefab
-  uploadId: 363396
+version https://git-lfs.github.com/spec/v1
+oid sha256:0330875efec90ba4d8622499cd7e163985d7488ad6a8293186ecfc830524b692
+size 419

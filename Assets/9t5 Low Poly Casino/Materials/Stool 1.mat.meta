@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: e2925bf9fac4efa44b59ea053ff865a4
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 2100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 166968
-  packageName: 9t5 Low Poly Casino
-  packageVersion: 1.0
-  assetPath: Assets/9t5 Low Poly Casino/Materials/Stool 1.mat
-  uploadId: 363396
+version https://git-lfs.github.com/spec/v1
+oid sha256:03415c7190f1c288ff615709fd6e0bedac2e01d9018efd5cb450ee9a31b88bda
+size 397

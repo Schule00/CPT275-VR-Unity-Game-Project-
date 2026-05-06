@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 0be146c24404487468bfcb6876afe5ce
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 100100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 166968
-  packageName: 9t5 Low Poly Casino
-  packageVersion: 1.0
-  assetPath: Assets/9t5 Low Poly Casino/Prefabs/Individual Cards/Diamond Jack.prefab
-  uploadId: 363396
+version https://git-lfs.github.com/spec/v1
+oid sha256:0091a2fa007d69c40e9f63d90cfff7dd66e59f9a1b90ee2d144bd5825e67a7e5
+size 422

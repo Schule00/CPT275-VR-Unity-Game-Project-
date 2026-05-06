@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: ca76e86796276e4478f1a73ccb1ca3f0
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 2100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 166968
-  packageName: 9t5 Low Poly Casino
-  packageVersion: 1.0
-  assetPath: Assets/9t5 Low Poly Casino/Materials/Playing Cards 4.mat
-  uploadId: 363396
+version https://git-lfs.github.com/spec/v1
+oid sha256:eaaac6cbef5724d2eb38d902d8f57895a3bed5a3c0d925c8170acd608da73184
+size 405

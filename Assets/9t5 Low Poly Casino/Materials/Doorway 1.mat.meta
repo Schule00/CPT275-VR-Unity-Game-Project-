@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: b29911fae8813844f8f23285dcae73bb
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 2100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 166968
-  packageName: 9t5 Low Poly Casino
-  packageVersion: 1.0
-  assetPath: Assets/9t5 Low Poly Casino/Materials/Doorway 1.mat
-  uploadId: 363396
+version https://git-lfs.github.com/spec/v1
+oid sha256:e6ec2740504a9f33c8f6254c63e4ac4edebd7e385277892a4df64f86efb015d0
+size 399

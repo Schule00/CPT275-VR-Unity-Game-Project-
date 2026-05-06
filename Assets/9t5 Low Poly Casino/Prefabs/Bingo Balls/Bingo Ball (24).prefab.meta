@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 8bf06df7dfe29294ea392dbe464bc618
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 100100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 166968
-  packageName: 9t5 Low Poly Casino
-  packageVersion: 1.0
-  assetPath: Assets/9t5 Low Poly Casino/Prefabs/Bingo Balls/Bingo Ball (24).prefab
-  uploadId: 363396
+version https://git-lfs.github.com/spec/v1
+oid sha256:fa2c369cf072c83b55efb62754bc046d12aea8f2d37ed3f36e119016f8a50277
+size 420

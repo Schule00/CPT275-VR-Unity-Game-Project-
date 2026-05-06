@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 7c141cccab0306b48a80bcb6a0decfec
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 100100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 166968
-  packageName: 9t5 Low Poly Casino
-  packageVersion: 1.0
-  assetPath: Assets/9t5 Low Poly Casino/Prefabs/Safe.prefab
-  uploadId: 363396
+version https://git-lfs.github.com/spec/v1
+oid sha256:399731279b50654561adbfa79fee3ba558fc360daa1ad66895b925755441ee32
+size 397

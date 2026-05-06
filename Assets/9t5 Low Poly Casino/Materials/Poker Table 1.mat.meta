@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 55e455ca33ebcc64891726ab99faf81d
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 2100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 166968
-  packageName: 9t5 Low Poly Casino
-  packageVersion: 1.0
-  assetPath: Assets/9t5 Low Poly Casino/Materials/Poker Table 1.mat
-  uploadId: 363396
+version https://git-lfs.github.com/spec/v1
+oid sha256:872ccac7288e50c2be530477d44396d47994f6c53358a505d655d862b9f823e7
+size 403

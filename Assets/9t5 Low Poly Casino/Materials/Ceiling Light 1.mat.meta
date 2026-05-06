@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 7cf23667d9880db40ab0dccab2a375d0
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 2100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 166968
-  packageName: 9t5 Low Poly Casino
-  packageVersion: 1.0
-  assetPath: Assets/9t5 Low Poly Casino/Materials/Ceiling Light 1.mat
-  uploadId: 363396
+version https://git-lfs.github.com/spec/v1
+oid sha256:bca245a5efc3416e18c6db23c08e167d753690c59c2d14b5d4a47423d0c41c5a
+size 405

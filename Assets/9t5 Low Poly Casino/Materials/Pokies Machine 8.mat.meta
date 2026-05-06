@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 0f442677c8b62154d970b6db21284122
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 2100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 166968
-  packageName: 9t5 Low Poly Casino
-  packageVersion: 1.0
-  assetPath: Assets/9t5 Low Poly Casino/Materials/Pokies Machine 8.mat
-  uploadId: 363396
+version https://git-lfs.github.com/spec/v1
+oid sha256:76af903717e3537e5657ece8830ff99c7bb36f22a8a9eb24d550a71088c3000a
+size 406

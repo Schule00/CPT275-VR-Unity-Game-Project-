@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 9e72f061da11c70428219e5a5f9ddc84
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 100100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 166968
-  packageName: 9t5 Low Poly Casino
-  packageVersion: 1.0
-  assetPath: Assets/9t5 Low Poly Casino/Prefabs/Die.prefab
-  uploadId: 363396
+version https://git-lfs.github.com/spec/v1
+oid sha256:a4861386b99c7b855938729a0e7bd0324a334fcac0ad5c376150edeff9890d92
+size 396

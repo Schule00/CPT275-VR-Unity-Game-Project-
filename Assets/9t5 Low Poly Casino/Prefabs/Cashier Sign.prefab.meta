@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 7a9f1fae4fcb7b54da87e2c45cbeb3bd
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 100100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 166968
-  packageName: 9t5 Low Poly Casino
-  packageVersion: 1.0
-  assetPath: Assets/9t5 Low Poly Casino/Prefabs/Cashier Sign.prefab
-  uploadId: 363396
+version https://git-lfs.github.com/spec/v1
+oid sha256:4f174e676300beeca987e4b5e634b96370f6ddbbd8cb159911aa86ca8b0c6451
+size 405

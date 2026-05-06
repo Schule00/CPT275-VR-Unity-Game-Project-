@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 0ff6821011ce84f40beec1f17e640c44
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 2100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 166968
-  packageName: 9t5 Low Poly Casino
-  packageVersion: 1.0
-  assetPath: Assets/9t5 Low Poly Casino/Materials/500 Chip 2.mat
-  uploadId: 363396
+version https://git-lfs.github.com/spec/v1
+oid sha256:c3292bc1cdb28d77894aa1ec7388abf16a750f407a9c7c8abb601c51afa3a848
+size 400

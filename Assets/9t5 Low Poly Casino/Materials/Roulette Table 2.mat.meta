@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 50af06fecccea6d479f6f6c7abbd468e
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 2100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 166968
-  packageName: 9t5 Low Poly Casino
-  packageVersion: 1.0
-  assetPath: Assets/9t5 Low Poly Casino/Materials/Roulette Table 2.mat
-  uploadId: 363396
+version https://git-lfs.github.com/spec/v1
+oid sha256:4a0693b48c58f9bc172ed32fb59db6f4214d5e52ac483248c79f499072617742
+size 406

@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 9bb9b3f78ca19c9419e991ac92b6db4a
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 2100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 166968
-  packageName: 9t5 Low Poly Casino
-  packageVersion: 1.0
-  assetPath: Assets/9t5 Low Poly Casino/Materials/Craps Table 1.mat
-  uploadId: 363396
+version https://git-lfs.github.com/spec/v1
+oid sha256:a5849a482cdb8e6c0aa063d78daac10b3aa69e2e9b7330d2c919c63b38770557
+size 403

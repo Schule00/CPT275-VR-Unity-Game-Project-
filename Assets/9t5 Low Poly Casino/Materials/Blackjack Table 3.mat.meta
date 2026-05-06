@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 5a437f1d54b62fc4aa05f2cb46ed2a63
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 2100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 166968
-  packageName: 9t5 Low Poly Casino
-  packageVersion: 1.0
-  assetPath: Assets/9t5 Low Poly Casino/Materials/Blackjack Table 3.mat
-  uploadId: 363396
+version https://git-lfs.github.com/spec/v1
+oid sha256:e8321a14ffbb3d74b2f82aeb0532355d3132a6bb29a7e1c04a9bdf71dfc14a4b
+size 407

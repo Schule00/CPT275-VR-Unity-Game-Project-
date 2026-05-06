@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 4bd8fdee9bb018e4cad358a851519c7e
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 2100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 166968
-  packageName: 9t5 Low Poly Casino
-  packageVersion: 1.0
-  assetPath: Assets/9t5 Low Poly Casino/Materials/Bingo Card 1.mat
-  uploadId: 363396
+version https://git-lfs.github.com/spec/v1
+oid sha256:3b23d074382ab16769c08144c0ed36947a9380bc89d23c38811f2c6f416092d5
+size 402

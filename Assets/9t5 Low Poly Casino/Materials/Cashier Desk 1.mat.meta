@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 6d3ab2bb680477249b03803015497c29
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 2100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 166968
-  packageName: 9t5 Low Poly Casino
-  packageVersion: 1.0
-  assetPath: Assets/9t5 Low Poly Casino/Materials/Cashier Desk 1.mat
-  uploadId: 363396
+version https://git-lfs.github.com/spec/v1
+oid sha256:a773960e88d624bf122ebc0ebb45419186fcdde12f94b551c3d9f7202222f496
+size 404

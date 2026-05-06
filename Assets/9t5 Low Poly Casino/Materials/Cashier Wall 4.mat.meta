@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 85098b75b7495b446a1442e5dc2a4a3e
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 2100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 166968
-  packageName: 9t5 Low Poly Casino
-  packageVersion: 1.0
-  assetPath: Assets/9t5 Low Poly Casino/Materials/Cashier Wall 4.mat
-  uploadId: 363396
+version https://git-lfs.github.com/spec/v1
+oid sha256:a2d1590aaadae3f30d4ca07d7f4f54873824cb578402e33c63a9c0daa41d6e9c
+size 404

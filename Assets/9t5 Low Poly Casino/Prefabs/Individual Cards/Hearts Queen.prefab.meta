@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 1b871d4f34d944e4fa99211ce60f3313
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 100100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 166968
-  packageName: 9t5 Low Poly Casino
-  packageVersion: 1.0
-  assetPath: Assets/9t5 Low Poly Casino/Prefabs/Individual Cards/Hearts Queen.prefab
-  uploadId: 363396
+version https://git-lfs.github.com/spec/v1
+oid sha256:afb5c39be287bb4288b094a73d3a75597b4ad9d5f574fe1df66172601a84ccce
+size 422

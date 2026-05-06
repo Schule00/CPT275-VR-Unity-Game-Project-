@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: b4bb9e01ee8e5e041acc0a913db78238
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 100100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 166968
-  packageName: 9t5 Low Poly Casino
-  packageVersion: 1.0
-  assetPath: Assets/9t5 Low Poly Casino/Prefabs/Individual Cards/Spade Jack.prefab
-  uploadId: 363396
+version https://git-lfs.github.com/spec/v1
+oid sha256:15eac00e6a7fa3238046fc648274a14b639659365798ecf7c3dbbf84854ee47e
+size 420

@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 22948beb787236f428367d678f9eb22e
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 100100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 166968
-  packageName: 9t5 Low Poly Casino
-  packageVersion: 1.0
-  assetPath: Assets/9t5 Low Poly Casino/Prefabs/Individual Cards/Spade 9.prefab
-  uploadId: 363396
+version https://git-lfs.github.com/spec/v1
+oid sha256:4e06811c80592613c39f6ddcc696de7dcdd850aba88584a877494f25c5f2e4d6
+size 417

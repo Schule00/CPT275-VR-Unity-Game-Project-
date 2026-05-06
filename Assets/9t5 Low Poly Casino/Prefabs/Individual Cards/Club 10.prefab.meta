@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 3440afa1ee649fd4097df377e7a50ac6
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 100100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 166968
-  packageName: 9t5 Low Poly Casino
-  packageVersion: 1.0
-  assetPath: Assets/9t5 Low Poly Casino/Prefabs/Individual Cards/Club 10.prefab
-  uploadId: 363396
+version https://git-lfs.github.com/spec/v1
+oid sha256:520722b56403a26907ff2df4bd83e228b278c531da878cfbc2289ff87dafb336
+size 417

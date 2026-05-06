@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 750b1f40f832ba24d926d74c762577e4
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 100100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 166968
-  packageName: 9t5 Low Poly Casino
-  packageVersion: 1.0
-  assetPath: Assets/9t5 Low Poly Casino/Prefabs/Individual Cards/Hearts Ace.prefab
-  uploadId: 363396
+version https://git-lfs.github.com/spec/v1
+oid sha256:7b3754262c3748babbe6a2da8330f482155d98e6637b4fd75b35bec328f50c2d
+size 420

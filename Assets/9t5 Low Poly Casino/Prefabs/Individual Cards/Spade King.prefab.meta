@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 7e753a7818610c6468b8bdbd6d49cd08
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 100100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 166968
-  packageName: 9t5 Low Poly Casino
-  packageVersion: 1.0
-  assetPath: Assets/9t5 Low Poly Casino/Prefabs/Individual Cards/Spade King.prefab
-  uploadId: 363396
+version https://git-lfs.github.com/spec/v1
+oid sha256:109bdaccb51c2d8c2b7e5a2e6e4ffcafb6097cf31298b464eb01b76a034404b1
+size 420

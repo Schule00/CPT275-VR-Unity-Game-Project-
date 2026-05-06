@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 06129f82831958343a29caeb461f8134
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 2100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 166968
-  packageName: 9t5 Low Poly Casino
-  packageVersion: 1.0
-  assetPath: Assets/9t5 Low Poly Casino/Materials/Bingo Ball Spinner 5.mat
-  uploadId: 363396
+version https://git-lfs.github.com/spec/v1
+oid sha256:32be99e8bcca4d2535e016f0ed5ad9ff49cbc9c7f6208f4baa0e4f5a60ddf8ed
+size 410

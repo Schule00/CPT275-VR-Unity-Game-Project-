@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 414023259bb16b444ac31706ecb675bf
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 100100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 166968
-  packageName: 9t5 Low Poly Casino
-  packageVersion: 1.0
-  assetPath: Assets/9t5 Low Poly Casino/Prefabs/Roof.prefab
-  uploadId: 363396
+version https://git-lfs.github.com/spec/v1
+oid sha256:14b0821131bca27bb73e016e7061ede400610f951b68087db78ffdad518bb5a9
+size 397
