@@ -11,6 +11,9 @@ public class SlotMachineUI : MonoBehaviour
     // STATIC SCORE API — readable from ANY other script in the project
     // ═══════════════════════════════════════════════════════════════════════════
 
+    public bool gameFinished;
+    public int slotScore;
+
     /// <summary>The player's current score. Read this from any script.</summary>
     public static int CurrentScore { get; private set; }
 
@@ -83,6 +86,7 @@ public class SlotMachineUI : MonoBehaviour
         SpinsUsed = 0;
         GameOver = false;
         displayScore = 0f;
+        gameFinished = false;
 
         RectTransform cr = GetComponent<RectTransform>();
         canvasH = cr.rect.height;
@@ -225,11 +229,14 @@ public class SlotMachineUI : MonoBehaviour
     void TriggerGameOver()
     {
         GameOver = true;
+        slotScore = CurrentScore;
+        gameFinished = true;
         ShowPullMe(false);
         if (gameOverRoot != null) gameOverRoot.SetActive(true);
         if (finalScoreText != null) finalScoreText.text = $"FINAL SCORE\n{CurrentScore} PTS";
         OnGameOver?.Invoke(CurrentScore);   // ← ScoreBoardManager gets this too
         Debug.Log($"[SlotMachine] GAME OVER. Final score: {CurrentScore}");
+
     }
 
     // ── HUD ────────────────────────────────────────────────────────────────────
